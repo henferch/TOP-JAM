@@ -1,0 +1,7 @@
+string request
+---
+int32 obsPeriodInMs
+string[] propertiesId
+string[] objectsId
+string[] agentsId
+

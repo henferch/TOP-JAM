@@ -1,0 +1,17 @@
+{        
+    "obsPeriodInMs": 50,
+    "bufferSize": 50,
+    "agentsId": ["A1", "A2", "A3"],                
+    "propertiesId": ["pSHt", "pSHs", "pSHc", "pCOr", "pCOg", "pCOb"],    
+    "objectsId": ["o0", "o1", "o2", "o3", "o4"],
+    "objectsProperties": {  "o0": ["pSHt","pCOr"], 
+                            "o1": ["pSHs","pCOb"],
+                            "o2": ["pSHc","pCOg"],
+                            "o3": ["pSHt","pCOg"],
+                            "o4": ["pSHs","pCOg"]
+    },
+    "observationsId": {"agent": ["tp", "to", "hp", "hd", "rp", "lp", "sp"], "property":["pp"], "object":["op"]},    
+    "providerClass": "SimulatorProvider"
+}
+    
+

@@ -1,0 +1,7 @@
+<launch>
+  <node name="data_server_node" pkg="data_server" type="data_server_node.py" />
+  <node name="data_server_service" pkg="data_server" type="data_server_service.py" />
+  <node name="network_server_node" pkg="network_server" type="network_server_node.py" />
+  <node name="network_server_service" pkg="network_server" type="network_server_service.py" />
+  <node name="network_monitor_node" pkg="network_monitor" type="network_monitor_node.py" />
+</launch>

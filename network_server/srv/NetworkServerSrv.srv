@@ -1,0 +1,18 @@
+string request
+---
+string[] individual_feature_ids
+string[] social_feature_ids
+string[] group_feature_ids 
+string[] joint_feature_ids
+string[] joint_scale_ids
+string[] agent_ids
+int32 individual_feature_ids_length
+int32 social_feature_ids_length
+int32 group_feature_ids_length
+int32 joint_feature_ids_length
+int32[] topology_dimensions
+int32[] individual_feature_dim
+int32[] social_feature_dim
+int32[] group_feature_dim 
+int32[] joint_feature_dim
+
