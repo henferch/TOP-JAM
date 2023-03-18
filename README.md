@@ -68,7 +68,7 @@ The project has been successfully tested in the operative system Ubuntu 20.04 LT
 
 ## Running TOP-JAM
 
-  Launch orderly the following commands
+  Launching individual nodes orderly :
   
 ```
 	rosrun data_server data_server_service.py
@@ -77,6 +77,13 @@ The project has been successfully tested in the operative system Ubuntu 20.04 LT
 	rosrun network_server network_server_node.py
 	rosrun data_server data_server_node.py
 ```
+
+  Launching all nodes at once :
+
+```
+	roslaunch network_monitor network_monitor.launch
+```
+
 ## Contact
 
 This program was implemented by Hendry Ferreira Chame.
